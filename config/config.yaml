@@ -136,7 +136,7 @@ service:
   enable_cors: true
 
   # Enable HTTPS for the REST and gRPC API
-  enable_tls: true
+  enable_tls: false
 
   # Check user HTTPS client certificate against CA file specified in tls config
   verify_https_client_certificate: false
